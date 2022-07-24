@@ -47,7 +47,7 @@ describe('#getByIndex', () => {
     })
  }) 
 
-describe('#insetAtIndex', () => {
+describe('#insertAtIndex', () => {
     describe('with index less than 0', () => {
         test('it does not insert anything', () => {
             const ll = LinkedList.fromValues(10,20)
